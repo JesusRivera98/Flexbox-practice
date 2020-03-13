@@ -1,0 +1,88 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+}
+
+
+@media (max-width : 599px){
+}
+@media (min-width : 600px) and (max-width : 990px){
+    .mainContainer{
+        display: flex;
+        flex-direction: row;        
+        /*justify-content: space-evenly;*/
+        /*text-align: center;*/
+        align-self: center;
+    }
+    .leftSide{
+        width: 30%;
+        align-self: center;
+    }
+    .rightSide{
+        width: 60%;
+    }
+    .rightSide{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightTop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .rightBottom{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+@media (min-width : 991px){
+    .leftSide{
+        display: flex;
+        /*justify-content: space-between;*/
+        align-self: auto;
+    }
+    .leftItem3{
+        align-self: right;
+    }
+    .rightSide{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+    .rightTop{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-content: center;
+    }
+    .rightBottom{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .rightItem{
+        width: 50%;
+    }
+
+}
+.mainContainer{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;*/
+    /*text-align: center;*/
+}
+.leftSide{
+
+}
+.rightSide{
+
+}
+.rightTop{
+
+}
+.rightBottom{
+    
+}
